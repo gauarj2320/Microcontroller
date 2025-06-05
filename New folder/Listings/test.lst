@@ -1,0 +1,30 @@
+A51 MACRO ASSEMBLER  TEST                                                                 11/15/2024 16:14:30 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\test.obj
+ASSEMBLER INVOKED BY: D:\C51\BIN\A51.EXE test.a51 SET(SMALL) DEBUG PRINT(.\Listings\test.lst) OBJECT(.\Objects\test.obj)
+                       EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0H               ; Start of program
+0000 7483              2     MOV A,#-125
+0002 78FB              3     MOV R0,#-5
+0004 28                4     ADD A,R0
+0005 F9                5     MOV R1,A
+                       6     END
+A51 MACRO ASSEMBLER  TEST                                                                 11/15/2024 16:14:30 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
